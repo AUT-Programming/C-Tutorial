@@ -46,10 +46,10 @@ fclose(file_pointer);
 ```c
 FILE *fp = fopen("file.txt", "w");
 if (fp != NULL) {
-    fprintf(fp, "این یک متن نمونه برای نوشتن در فایل است.");
+    fprintf(fp, "this is a text...");
     fclose(fp);
 } else {
-    printf("خطا در باز کردن فایل");
+    printf("error");
 }
 ```
 ### استفاده از `fputc` برای نوشتن کاراکتر
@@ -60,7 +60,7 @@ fputc('A', fp);
 ### استفاده از `fputs` برای نوشتن رشته
 تابع `fputs` یک رشته از کاراکترها را در فایل می‌نویسد:
 ```c
-fputs("یک متن نمونه", fp);
+fputs("sample text...", fp);
 ```
 ## خواندن از فایل‌ها
 
@@ -71,10 +71,10 @@ FILE *fp = fopen("file.txt", "r");
 if (fp != NULL) {
     char str[50];
     fscanf(fp, "%s", str);
-    printf("متن خوانده شده: %s", str);
+    printf("text from the file: %s", str);
     fclose(fp);
 } else {
-    printf("خطا در باز کردن فایل");
+    printf("error");
 }
 ```
 ### استفاده از `fgetc` برای خواندن کاراکتر

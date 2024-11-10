@@ -33,9 +33,9 @@ scanf("format", &variable);
 #### مثال:
 ```c
 int age;
-printf("سن خود را وارد کنید: ");
+printf("enter your age: ");
 scanf("%d", &age);
-printf("سن شما %d سال است.", age);
+printf("your age : %d", age);
 ```
 
 ## قالب‌بندی در printf و scanf
@@ -53,9 +53,9 @@ printf("سن شما %d سال است.", age);
 ### مثال:
 ```c
 char ch;
-printf("یک کاراکتر وارد کنید: ");
+printf("enter a single character: ");
 ch = getchar();
-printf("کاراکتر وارد شده: ");
+printf("the entered character: ");
 putchar(ch);
 ```
 ## ورودی و خروجی رشته‌ای
@@ -64,9 +64,9 @@ putchar(ch);
 ### مثال:
 ```c
 char name[50];
-printf("نام خود را وارد کنید: ");
+printf("enter your name: ");
 gets(name);
-printf("سلام، ");
+printf("hello، ");
 puts(name);
 ```
 
