@@ -11,7 +11,7 @@ int check_sequence(int x) {
   else
     return -1;
 }
-
+//main
 int main() {
   int num, res;
   scanf("%d", &num);
