@@ -12,9 +12,7 @@ int main() {
     int tedAdi = ted - ((ted + 11) / 12);
     int ghestAdi = (double)x / tedAdi;
 
-    // printf("gheste adi = %d\n", ghestAdi);
     for (int i = 0; i < ted; i++) {
-        // printf("ans = %d\n", ans);
         if (i % 12 == 0)
             ans += (double)x * ((double)n / 100);
         else 

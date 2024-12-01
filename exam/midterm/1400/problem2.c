@@ -17,8 +17,7 @@ void generate_testcases(){
 }
 
 int main(){
-//    generate_testcases();
-//    return 0;
+
     int n;
     scanf("%d", &n);
     int locations[n], branches[n];
